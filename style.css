@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wraper {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+}
+
+.my-image img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.my-information h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.skill{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+
+}
+
+.my-information p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+}
+
+.about-me a {
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+.about-me a:hover {
+    background-color: #555;
+}
